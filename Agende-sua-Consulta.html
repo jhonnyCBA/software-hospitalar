@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style agendamento.css">
+  <title>Agendamento de Consulta</title>
+  <script src="javascript-Agendamento.js"></script>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" height="100" width="100">  
+    </header>
+
+    <main>
+        <form id="formulario">
+            <h1>Agendamento de Consulta</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="data">Data da Consulta:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="hora">Hora da Consulta:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="especialidade">Especialidade:</label>
+            <select id="especialidade" name="especialidade" required>
+                <option value="clinica">Clínica Geral</option>
+                <option value="pediatria">Pediatria</option>
+                <option value="ortopedia">Ortopedia</option>
+            </select>
+
+            <button type="button" onclick="agendarConsulta()">Agendar Consulta</button>
+        </form>
+
+        <div id="resultado"></div>
+    </main>
+</body>
+</html>

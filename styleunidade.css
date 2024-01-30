@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('fundo\ bory.png');
+    background-size: cover;
+    background-position: center top;
+}
+
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+header {
+    background: rgb(0,205,17);
+    background: linear-gradient(270deg, rgba(0,205,17,1) 41%, rgba(255,255,255,1) 66%);
+    color: #000000;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 37px 17px #000000a1; 
+    box-shadow: 5px 5px 37px 17px #000000a1;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: rgb(0,205,17);
+    background: linear-gradient(270deg, rgba(0,205,17,1) 41%, rgba(255,255,255,1) 66%);
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
